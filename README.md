@@ -19,4 +19,4 @@
     <br>
     [ [實作解題演練](https://colab.research.google.com/github/mz038197/Introductory-APCS-Lab/blob/main/lab/student/Lesson9/程式實作題演練.ipynb) ]
     <br>
-    [ [模擬測驗](https://quizzes.vanscoding.com/quiz/4JXOXB) ]
+    [ [識讀模擬測驗](https://quizzes.vanscoding.com/quiz/4JXOXB) ]
