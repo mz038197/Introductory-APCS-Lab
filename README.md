@@ -14,9 +14,14 @@
     [ [測驗](https://quizzes.vanscoding.com/quiz/4JXOXB) ]
 
 ## **Lesson9:**
-1. **模擬測驗 + 實作解題演練**<br>
+1. **識讀題型模擬測驗 + 實作解題演練**<br>
     [ [基礎題練習(a524, a054, a065, c657, d478)](https://colab.research.google.com/github/mz038197/Introductory-APCS-Lab/blob/main/lab/student/BasicQuizzes/程式基礎題型.ipynb) ]
     <br>
     [ [實作解題演練](https://colab.research.google.com/github/mz038197/Introductory-APCS-Lab/blob/main/lab/student/Lesson9/程式實作題演練.ipynb) ]
     <br>
     [ [識讀模擬測驗](https://quizzes.vanscoding.com/quiz/4JXOXB) ]
+
+
+## **Lesson10:**
+1. **實作解題模擬測驗**<br>
+    [ [實作題模擬測驗](https://colab.research.google.com/github/mz038197/Introductory-APCS-Lab/blob/main/lab/student/Lesson10/實作題模擬測驗.ipynb) ]
