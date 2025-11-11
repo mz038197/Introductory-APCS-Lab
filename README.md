@@ -1,4 +1,9 @@
 # 目錄
+
+## 基礎題目練習:
+1. **程式基礎題型**<br>
+    [ [講義](https://colab.research.google.com/github/mz038197/Introductory-APCS-Lab/blob/main/lab/student/BasicQuizzes/程式基礎題型.ipynb) ]
+
 ## Lesson7:
 1. **測識資料解析練習**<br>
     [ [講義](https://colab.research.google.com/github/mz038197/Introductory-APCS-Lab/blob/main/lab/student/Lesson7/測資解析練習(1).ipynb) ]
