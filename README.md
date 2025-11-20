@@ -4,6 +4,10 @@
 1. **程式基礎題型**<br>
     [ [講義](https://colab.research.google.com/github/mz038197/Introductory-APCS-Lab/blob/main/lab/student/BasicQuizzes/程式基礎題型.ipynb) ]
 
+## Lesson3:
+1. **基礎資料結構**<br>
+    [ [講義](https://colab.research.google.com/github/mz038197/Introductory-APCS-Lab/blob/main/lab/teacher/Lesson3/基礎資料結構(1).ipynb) ]
+
 ## Lesson7:
 1. **測識資料解析練習**<br>
     [ [講義](https://colab.research.google.com/github/mz038197/Introductory-APCS-Lab/blob/main/lab/student/Lesson7/測資解析練習(1).ipynb) ]
