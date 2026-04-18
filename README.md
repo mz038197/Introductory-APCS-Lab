@@ -4,6 +4,14 @@
 1. **程式基礎題型**<br>
     [ [講義](https://colab.research.google.com/github/mz038197/Introductory-APCS-Lab/blob/main/lab/student/BasicQuizzes/程式基礎題型.ipynb) ]
 
+## Lesson1:
+1. **變數與運算**<br>
+    [ [講義](https://colab.research.google.com/github/mz038197/Introductory-APCS-Lab/blob/main/lab/student/Lesson1/變數與運算(1).ipynb) ]
+2. **IPO與程式結構**<br>
+    [ [講義](https://colab.research.google.com/github/mz038197/Introductory-APCS-Lab/blob/main/lab/student/Lesson1/IPO與程式結構(2).ipynb) ]
+    &nbsp;
+    [ [測驗](https://quizzes.vanscoding.com/quiz/0AEVZP) ]
+
 ## Lesson3:
 1. **基礎資料結構**<br>
     [ [講義](https://colab.research.google.com/github/mz038197/Introductory-APCS-Lab/blob/main/lab/teacher/Lesson3/基礎資料結構(1).ipynb) ]
