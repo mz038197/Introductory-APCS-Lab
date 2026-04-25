@@ -9,8 +9,12 @@
     [ [講義](https://colab.research.google.com/github/mz038197/Introductory-APCS-Lab/blob/main/lab/student/Lesson1/變數與運算(1).ipynb) ]
 2. **IPO與程式結構**<br>
     [ [講義](https://colab.research.google.com/github/mz038197/Introductory-APCS-Lab/blob/main/lab/student/Lesson1/IPO與程式結構(2).ipynb) ]
-    &nbsp;
-    [ [測驗](https://quizzes.vanscoding.com/quiz/0AEVZP) ]
+
+## Lesson2:
+1. **流程控制_選擇條件**<br>
+    [ [講義](https://colab.research.google.com/github/mz038197/Introductory-APCS-Lab/blob/main/lab/student/Lesson2/流程控制_選擇條件(1).ipynb) ]
+2. **流程控制_基礎迴圈**<br>
+    [ [講義](https://colab.research.google.com/github/mz038197/Introductory-APCS-Lab/blob/main/lab/student/Lesson2/流程控制_基礎迴圈(2).ipynb) ]
 
 ## Lesson3:
 1. **基礎資料結構**<br>
