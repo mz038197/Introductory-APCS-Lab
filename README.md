@@ -18,7 +18,13 @@
 
 ## Lesson3:
 1. **基礎資料結構**<br>
-    [ [講義](https://colab.research.google.com/github/mz038197/Introductory-APCS-Lab/blob/main/lab/teacher/Lesson3/基礎資料結構(1).ipynb) ]
+    [ [講義](https://colab.research.google.com/github/mz038197/Introductory-APCS-Lab/blob/main/lab/student/Lesson3/基礎資料結構(1).ipynb) ]
+2. **條件、迴圈與串列應用**<br>
+    [ [講義](https://colab.research.google.com/github/mz038197/Introductory-APCS-Lab/blob/main/lab/student/Lesson3/條件、迴圈與串列應用(2).ipynb) ]
+3. **Lesson3課堂實作 ZeroJudge**<br>
+    [ [講義](https://colab.research.google.com/github/mz038197/Introductory-APCS-Lab/blob/main/lab/student/Lesson3/Lesson3課堂實作_ZeroJudge(3).ipynb) ]
+4. **商業類術科精選（配合 Lesson3）**<br>
+    [ [講義](https://colab.research.google.com/github/mz038197/Introductory-APCS-Lab/blob/main/lab/student/Lesson3/商業類術科精選_配合本Lesson.ipynb) ]
 
 ## Lesson7:
 1. **測識資料解析練習**<br>
