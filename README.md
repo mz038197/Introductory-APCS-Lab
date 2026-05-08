@@ -26,6 +26,16 @@
 4. **商業類術科精選（配合 Lesson3）**<br>
     [ [講義](https://colab.research.google.com/github/mz038197/Introductory-APCS-Lab/blob/main/lab/student/Lesson3/商業類術科精選_配合本Lesson.ipynb) ]
 
+## Lesson4:
+1. **函式與模組**<br>
+    [ [講義](https://colab.research.google.com/github/mz038197/Introductory-APCS-Lab/blob/main/lab/student/Lesson4/函式與模組(1).ipynb) ]
+2. **字串應用**<br>
+    [ [講義](https://colab.research.google.com/github/mz038197/Introductory-APCS-Lab/blob/main/lab/student/Lesson4/字串應用(2).ipynb) ]
+3. **Lesson4程式實作 ZeroJudge**<br>
+    [ [講義](https://colab.research.google.com/github/mz038197/Introductory-APCS-Lab/blob/main/lab/student/Lesson4/Lesson4程式實作-ZeroJudge(3).ipynb) ]
+4. **商業類術科精選（配合 Lesson4）**<br>
+    [ [講義](https://colab.research.google.com/github/mz038197/Introductory-APCS-Lab/blob/main/lab/student/Lesson4/商業類術科精選_配合本Lesson.ipynb) ]
+
 ## Lesson7:
 1. **測識資料解析練習**<br>
     [ [講義](https://colab.research.google.com/github/mz038197/Introductory-APCS-Lab/blob/main/lab/student/Lesson7/測資解析練習(1).ipynb) ]
