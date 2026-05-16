@@ -36,6 +36,14 @@
 4. **商業類術科精選（配合 Lesson4）**<br>
     [ [講義](https://colab.research.google.com/github/mz038197/Introductory-APCS-Lab/blob/main/lab/student/Lesson4/商業類術科精選_配合本Lesson.ipynb) ]
 
+## Lesson5:
+1. **資料結構**<br>
+    [ [講義](https://colab.research.google.com/github/mz038197/Introductory-APCS-Lab/blob/main/lab/student/Lesson5/資料結構(1).ipynb) ]
+2. **程式識讀題型-遞迴計算**<br>
+    [ [講義](https://colab.research.google.com/github/mz038197/Introductory-APCS-Lab/blob/main/lab/student/Lesson5/程式識讀題型-遞迴計算(2).ipynb) ]
+3. **商業類術科精選（配合 Lesson5）**<br>
+    [ [講義](https://colab.research.google.com/github/mz038197/Introductory-APCS-Lab/blob/main/lab/student/Lesson5/商業類術科精選_配合本Lesson.ipynb) ]
+
 ## Lesson7:
 1. **測識資料解析練習**<br>
     [ [講義](https://colab.research.google.com/github/mz038197/Introductory-APCS-Lab/blob/main/lab/student/Lesson7/測資解析練習(1).ipynb) ]
