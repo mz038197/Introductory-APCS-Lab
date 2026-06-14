@@ -8,7 +8,7 @@
 1. **變數與運算**<br>
     [ [講義](https://colab.research.google.com/github/mz038197/Introductory-APCS-Lab/blob/main/lab/student/Lesson1/變數與運算(1).ipynb) ]
     &nbsp;
-    [ [講義（含上繳）](https://colab.research.google.com/github/mz038197/Introductory-APCS-Lab/blob/main/lab/teacher/Lesson1/變數與運算(1)_上繳.ipynb) ]
+    [ [講義（含上繳）](https://colab.research.google.com/github/mz038197/Introductory-APCS-Lab/blob/main/lab/student/Lesson1/變數與運算(1)_上繳.ipynb) ]
 2. **IPO與程式結構**<br>
     [ [講義](https://colab.research.google.com/github/mz038197/Introductory-APCS-Lab/blob/main/lab/student/Lesson1/IPO與程式結構(2).ipynb) ]
 
