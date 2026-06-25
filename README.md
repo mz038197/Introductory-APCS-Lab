@@ -11,32 +11,54 @@
     [ [講義（含上繳）](https://colab.research.google.com/github/mz038197/Introductory-APCS-Lab/blob/main/lab/student/Lesson1/變數與運算(1)_上繳.ipynb) ]
 2. **IPO與程式結構**<br>
     [ [講義](https://colab.research.google.com/github/mz038197/Introductory-APCS-Lab/blob/main/lab/student/Lesson1/IPO與程式結構(2).ipynb) ]
+    &nbsp;
+    [ [講義（含上繳）](https://colab.research.google.com/github/mz038197/Introductory-APCS-Lab/blob/main/lab/student/Lesson1/IPO與程式結構(2)_上繳.ipynb) ]
 
 ## Lesson2:
 1. **流程控制_選擇條件**<br>
     [ [講義](https://colab.research.google.com/github/mz038197/Introductory-APCS-Lab/blob/main/lab/student/Lesson2/流程控制_選擇條件(1).ipynb) ]
+    &nbsp;
+    [ [講義（含上繳）](https://colab.research.google.com/github/mz038197/Introductory-APCS-Lab/blob/main/lab/student/Lesson2/流程控制_選擇條件(1)_上繳.ipynb) ]
 2. **流程控制_基礎迴圈**<br>
     [ [講義](https://colab.research.google.com/github/mz038197/Introductory-APCS-Lab/blob/main/lab/student/Lesson2/流程控制_基礎迴圈(2).ipynb) ]
+    &nbsp;
+    [ [講義（含上繳）](https://colab.research.google.com/github/mz038197/Introductory-APCS-Lab/blob/main/lab/student/Lesson2/流程控制_基礎迴圈(2)_上繳.ipynb) ]
 
 ## Lesson3:
 1. **基礎資料結構**<br>
     [ [講義](https://colab.research.google.com/github/mz038197/Introductory-APCS-Lab/blob/main/lab/student/Lesson3/基礎資料結構(1).ipynb) ]
+    &nbsp;
+    [ [講義（含上繳）](https://colab.research.google.com/github/mz038197/Introductory-APCS-Lab/blob/main/lab/student/Lesson3/基礎資料結構(1)_上繳.ipynb) ]
 2. **條件、迴圈與串列應用**<br>
     [ [講義](https://colab.research.google.com/github/mz038197/Introductory-APCS-Lab/blob/main/lab/student/Lesson3/條件、迴圈與串列應用(2).ipynb) ]
+    &nbsp;
+    [ [講義（含上繳）](https://colab.research.google.com/github/mz038197/Introductory-APCS-Lab/blob/main/lab/student/Lesson3/條件、迴圈與串列應用(2)_上繳.ipynb) ]
 3. **Lesson3課堂實作 ZeroJudge**<br>
     [ [講義](https://colab.research.google.com/github/mz038197/Introductory-APCS-Lab/blob/main/lab/student/Lesson3/Lesson3課堂實作_ZeroJudge(3).ipynb) ]
+    &nbsp;
+    [ [講義（含上繳）](https://colab.research.google.com/github/mz038197/Introductory-APCS-Lab/blob/main/lab/student/Lesson3/Lesson3課堂實作_ZeroJudge(3)_上繳.ipynb) ]
 4. **商業類術科精選（配合 Lesson3）**<br>
     [ [講義](https://colab.research.google.com/github/mz038197/Introductory-APCS-Lab/blob/main/lab/student/Lesson3/商業類術科精選_配合本Lesson.ipynb) ]
+    &nbsp;
+    [ [講義（含上繳）](https://colab.research.google.com/github/mz038197/Introductory-APCS-Lab/blob/main/lab/student/Lesson3/商業類術科精選_配合本Lesson_上繳.ipynb) ]
 
 ## Lesson4:
 1. **函式與模組**<br>
     [ [講義](https://colab.research.google.com/github/mz038197/Introductory-APCS-Lab/blob/main/lab/student/Lesson4/函式與模組(1).ipynb) ]
+    &nbsp;
+    [ [講義（含上繳）](https://colab.research.google.com/github/mz038197/Introductory-APCS-Lab/blob/main/lab/student/Lesson4/函式與模組(1)_上繳.ipynb) ]
 2. **字串應用**<br>
     [ [講義](https://colab.research.google.com/github/mz038197/Introductory-APCS-Lab/blob/main/lab/student/Lesson4/字串應用(2).ipynb) ]
+    &nbsp;
+    [ [講義（含上繳）](https://colab.research.google.com/github/mz038197/Introductory-APCS-Lab/blob/main/lab/student/Lesson4/字串應用(2)_上繳.ipynb) ]
 3. **Lesson4程式實作 ZeroJudge**<br>
     [ [講義](https://colab.research.google.com/github/mz038197/Introductory-APCS-Lab/blob/main/lab/student/Lesson4/Lesson4程式實作-ZeroJudge(3).ipynb) ]
+    &nbsp;
+    [ [講義（含上繳）](https://colab.research.google.com/github/mz038197/Introductory-APCS-Lab/blob/main/lab/student/Lesson4/Lesson4程式實作-ZeroJudge(3)_上繳.ipynb) ]
 4. **商業類術科精選（配合 Lesson4）**<br>
     [ [講義](https://colab.research.google.com/github/mz038197/Introductory-APCS-Lab/blob/main/lab/student/Lesson4/商業類術科精選_配合本Lesson.ipynb) ]
+    &nbsp;
+    [ [講義（含上繳）](https://colab.research.google.com/github/mz038197/Introductory-APCS-Lab/blob/main/lab/student/Lesson4/商業類術科精選_配合本Lesson_上繳.ipynb) ]
 
 ## Lesson5:
 1. **資料結構**<br>
