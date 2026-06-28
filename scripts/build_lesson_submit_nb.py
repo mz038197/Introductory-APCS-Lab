@@ -11,9 +11,18 @@ TEMPLATE = ROOT / "lab/student/Lesson1/IPO與程式結構(2)_上繳.ipynb"
 
 APCS_HEADER_RE = re.compile(r"### .*?APCS (\d+-\d+[a-z]?)\s")
 SUBHEADER_RE = re.compile(r"#### APCS (\d+-\d+[a-z]?)\.py")
+PARSE_RE = re.compile(r"#### \*\*(10-\d+[a-z]?)")
+PARSE_FULL_RE = re.compile(r"#### \*\*試試完成完整版本")
 ZJ_A_RE = re.compile(r"### \*\*(a\d+)\.")
-ZJ_ID_RE = re.compile(r"### \*\*\[?(c\d+|g\d+)\.")
-PROBLEM_RE = re.compile(r"## Problem ([A-Z]) ")
+ZJ_ID_RE = re.compile(
+    r"#### .*?\[?(i\d+|e\d+|b\d+|c\d+|g\d+|a\d+)\.", re.I
+)
+LC_RE = re.compile(r"#### .*?\[(\d+)\.")
+ALGO_SECTION_RE = re.compile(r"#### \*\*(\d+\.\d+)")
+ALGO_SEARCH_RE = re.compile(r"##### \*\*(線性搜尋|二分搜尋)")
+ALGO_EXTREME_RE = re.compile(r"#### \*\*極值例題")
+RECUR_EXAMPLE_RE = re.compile(r"#### \*\*例題(\d+)")
+PROBLEM_RE = re.compile(r"## Problem ([A-Z])\b")
 
 
 def _cell_text(cell):
@@ -29,7 +38,11 @@ def _is_start_code_cell(cell):
         return False
     for line in text.splitlines():
         stripped = line.strip()
-        if stripped == "#start" or stripped.startswith("#start-"):
+        if (
+            stripped == "#start"
+            or stripped.startswith("#start-")
+            or stripped == "# YOUR CODE HERE"
+        ):
             return True
     return False
 
@@ -44,9 +57,31 @@ def _parse_header_id(text: str, problem_counts: dict) -> str | None:
     m = ZJ_A_RE.search(text)
     if m:
         return m.group(1)
+    m = PARSE_RE.search(text)
+    if m:
+        return f"APCS_{m.group(1)}"
+    m = PARSE_FULL_RE.search(text)
+    if m:
+        return "APCS_10-2_full"
     m = ZJ_ID_RE.search(text)
     if m:
-        return m.group(1)
+        return m.group(1).lower()
+    m = LC_RE.search(text)
+    if m:
+        return f"LC_{m.group(1)}"
+    m = ALGO_SECTION_RE.search(text)
+    if m:
+        return f"Algo_{m.group(1)}"
+    m = ALGO_SEARCH_RE.search(text)
+    if m:
+        label = m.group(1)
+        return f"Algo_{label}"
+    m = ALGO_EXTREME_RE.search(text)
+    if m:
+        return "Algo_極值"
+    m = RECUR_EXAMPLE_RE.search(text)
+    if m:
+        return f"Recur_例題{m.group(1)}"
     m = PROBLEM_RE.search(text)
     if m:
         letter = m.group(1)
@@ -121,7 +156,9 @@ def build_submit_notebook(
             for line in lines:
                 stripped = line.strip()
                 if not replaced and (
-                    stripped == "#start" or stripped.startswith("#start-")
+                    stripped == "#start"
+                    or stripped.startswith("#start-")
+                    or stripped == "# YOUR CODE HERE"
                 ):
                     new_lines.append(f"#start-{qid}")
                     replaced = True
@@ -238,6 +275,73 @@ def main():
             "商業類術科精選",
             "Prob_K",
             0,
+        ),
+        # Lesson5
+        (
+            ROOT / "lab/student/Lesson5/資料結構(1).ipynb",
+            ROOT / "lab/student/Lesson5/資料結構(1)_上繳.ipynb",
+            "資料結構",
+            "i213",
+            1,
+        ),
+        (
+            ROOT / "lab/student/Lesson5/程式識讀題型-遞迴計算(2).ipynb",
+            ROOT / "lab/student/Lesson5/程式識讀題型-遞迴計算(2)_上繳.ipynb",
+            "遞迴計算",
+            "Recur_例題1",
+            1,
+        ),
+        (
+            ROOT / "lab/student/Lesson5/商業類術科精選_配合本Lesson.ipynb",
+            ROOT / "lab/student/Lesson5/商業類術科精選_配合本Lesson_上繳.ipynb",
+            "商業類術科精選",
+            "Prob_J",
+            0,
+        ),
+        # Lesson6
+        (
+            ROOT / "lab/student/Lesson6/基礎演算法(1).ipynb",
+            ROOT / "lab/student/Lesson6/基礎演算法(1)_上繳.ipynb",
+            "基礎演算法",
+            "Algo_1.1",
+            1,
+        ),
+        (
+            ROOT / "lab/student/Lesson6/程式識讀題型-流程控制(2).ipynb",
+            ROOT / "lab/student/Lesson6/程式識讀題型-流程控制(2)_上繳.ipynb",
+            "流程控制識讀",
+            "APCS_3-1",
+            1,
+        ),
+        (
+            ROOT / "lab/student/Lesson6/商業類術科精選_配合本Lesson.ipynb",
+            ROOT / "lab/student/Lesson6/商業類術科精選_配合本Lesson_上繳.ipynb",
+            "商業類術科精選",
+            "Prob_Q",
+            0,
+        ),
+        # Lesson7
+        (
+            ROOT / "lab/student/Lesson7/測資解析練習(1).ipynb",
+            ROOT / "lab/student/Lesson7/測資解析練習(1)_上繳.ipynb",
+            "測資解析練習",
+            "APCS_10-1a",
+            1,
+        ),
+        (
+            ROOT / "lab/student/Lesson7/程式識讀題型-函式(3).ipynb",
+            ROOT / "lab/student/Lesson7/程式識讀題型-函式(3)_上繳.ipynb",
+            "函式識讀",
+            "APCS_3-1",
+            1,
+        ),
+        # Lesson8
+        (
+            ROOT / "lab/student/Lesson8/程式識讀題型_串列應用(1).ipynb",
+            ROOT / "lab/student/Lesson8/程式識讀題型_串列應用(1)_上繳.ipynb",
+            "串列應用識讀",
+            "APCS_3-1",
+            1,
         ),
     ]
     for src, out, title, example, insert_after in jobs:
